@@ -43,7 +43,7 @@ env/
 Thumbs.db
 
 # VSCode
-.vscode/
+!.vscode/
 
 # Data caches
 cache/
