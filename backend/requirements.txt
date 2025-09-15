@@ -1,0 +1,6 @@
+osmnx
+geopandas
+shapely
+requests
+networkx
+duckdb
