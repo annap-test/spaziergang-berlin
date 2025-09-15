@@ -1,0 +1,18 @@
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+include = "\.(py|pyi)$"
+exclude = [
+  "^/\.git",
+  "^/\.venv",
+  "^/venv",
+  "^/env",
+  "^/build",
+  "^/dist",
+  "^/\.eggs",
+  "^/\.mypy_cache",
+  "^/\.pytest_cache",
+  "^/\.ruff_cache",
+  "^/notebooks/.*\.ipynb",
+]
+

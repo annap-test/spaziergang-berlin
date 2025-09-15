@@ -41,6 +41,16 @@ Empfohlen: getrennte Umgebungen für Backend und Frontend.
 2. Abhängigkeiten installieren: `pip install -r frontend/requirements.txt`
 3. Starten: `streamlit run frontend/app.py`
 
+## Entwicklung: Lint/Format
+
+- Dev-Tools installieren: `pip install -r dev-requirements.txt`
+- Black manuell ausführen:
+  - Windows (CMD/PowerShell): `scripts\format.bat`
+  - macOS/Linux: `bash scripts/format.sh`
+- Pre-commit Hooks (optional):
+  - Installieren: `pre-commit install`
+  - Manuell prüfen: `pre-commit run --all-files`
+
 ## Hinweise
 
 - `backend/data_loader.py` enthält einen Stub für `fetch_pois(...)`, der später mit einer Overpass-Abfrage implementiert wird.
